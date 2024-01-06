@@ -1,0 +1,117 @@
+﻿@model IEnumerable<Pharma_Ky.Models.DevChid>
+
+    @{
+        ViewData["Title"] = "List";
+        Layout = "~/Views/Shared/_MainLayout.cshtml";
+    }
+    @section MainSection{
+
+        <div class="row gy-4">
+            <figure>
+                <img src="~/assets/img/medici" alt="Image placeholder" class="center">
+            </figure>
+
+        </div>
+    <br />
+    <br />
+    <br />
+    <br />
+    <br /> <br/>
+
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a asp-controller="DevChid">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Devices & Children need</li>
+            </ol>
+        </nav>
+
+        <div class="site-wrap">
+
+            <div class="site-navbar py-2">
+                <div class="container">
+                    <div class="d-flex align-items-center justify-content-between">
+                        <div class="logo">
+                            <div class="site-logo">
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <br />
+                <hr>
+                <h1 style="text-align:center; color:red;">Devices<span>.</span></h1>
+                <hr />
+
+                <div class="row">
+
+
+                    <div class="col-sm-6 col-lg-4 text-center item mb-4">
+                        <a asp-controller="Home" asp-action="Detalis"> <img src="~/assets/img/devices/6.jpeg" alt="Image" width="150" height="200" /></a>
+                        <h6 class="text-dark"><a asp-controller="Home" asp-action="Detalis">Glucolab Blood <br /> Glucose Monitoring System<br />for self testing</a></h6>
+                        <p class="price">15.00 JD</p>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 text-center item mb-4">
+                        <a asp-controller="Home" asp-action="Detalis"> <img src="~/assets/img/devices/2.jpeg" alt="Image" width="150" height="200" /></a>
+                        <h6 class="text-dark"><a asp-controller="Home" asp-action="Detalis">Xper Technology<br /> Procheck Advance </a></h6>
+                        <p class="price">15.00 JD</p>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 text-center item mb-4">
+                        <a asp-controller="Home" asp-action="Detalis"> <img src="~/assets/img/devices/3.jpeg" alt="Image" width="200" height="200"></a>
+                        <h6 class="text-dark"><a asp-controller="Home" asp-action="Detalis">Accu-Check Instant</a></h6>
+                        <p class="price">29.00 JD</p>
+                    </div>
+
+                    <div class="col-sm-6 col-lg-4 text-center item mb-4">
+
+                        <a asp-controller="Home" asp-action="Detalis"> <img src="~/assets/img/devices/4.jpeg" alt="Image" width="150" height="200"></a>
+                        <h6 class="text-dark"><a asp-controller="Home" asp-action="Detalis">Rossmax Monitoring</a></h6>
+                        <p class="price">52.00 JD</p>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 text-center item mb-4">
+                        <a asp-controller="Home" asp-action="Detalis"> <img src="~/assets/img/devices/5.jpeg" alt="Image" width="150" height="200"></a>
+                        <h6 class="text-dark"><a asp-controller="Home" asp-action="Detalis">Omron M3 <br />Automatic Upper Arm,<br /> Blood Pressure Monitor</a></h6>
+                        <p class="price">100.00 JD </p>
+                    </div>
+                    <br /> <br /> <br /> <br />
+                    <br /> <br />
+
+                    <hr>
+                    <h1 style="text-align:center; color:red;">Children need<span>.</span></h1>
+                    <hr />
+                    <div class="row">
+
+
+                        <div class="col-sm-6 col-lg-4 text-center item mb-4">
+                            <a asp-controller="Home" asp-action="Detalis"> <img src="~/assets/img/Children/3.jpeg" alt="Image" width="150" height="180" /></a>
+                            <h6 class="text-dark"><a asp-controller="Home" asp-action="Detalis">Kids Probiotics</a></h6>
+                            <p class="price">16.434 JD</p>
+                        </div>
+                        <div class="col-sm-6 col-lg-4 text-center item mb-4">
+                            <a asp-controller="Home" asp-action="Detalis"> <img src="~/assets/img/Children/4.jpeg" alt="Image" width="170" height="200" /></a>
+                            <h6 class="text-dark"><a asp-controller="Home" asp-action="Detalis">JoySpring </a></h6>
+                            <p class="price">15.540 JD</p>
+                        </div>
+                        <div class="col-sm-6 col-lg-4 text-center item mb-4">
+                            <a asp-controller="Home" asp-action="Detalis"> <img src="~/assets/img/Children/5.jpeg" alt="Image" width="230" height="230"></a>
+                            <h6 class="text-dark"><a asp-controller="Home" asp-action="Detalis">Pampers Premium Care Midi Diapers, Size 3</a></h6>
+                            <p class="price">12.50 JD</p>
+                        </div>
+
+                        <div class="col-sm-6 col-lg-4 text-center item mb-4">
+
+                            <a asp-controller="Home" asp-action="Detalis"> <img src="~/assets/img/Children/6.jpeg" alt="Image" width="150" height="170"></a>
+                            <h6 class="text-dark"><a asp-controller="Home" asp-action="Detalis">Bone Health+ <br />with Calcium, Magnesium,<br /> and Vitamins D & K, Liquid</a></h6>
+                            <p class="price">15.723 JD</p>
+                        </div>
+                        <div class="col-sm-6 col-lg-4 text-center item mb-4">
+                            <a asp-controller="Home" asp-action="Detalis"> <img src="~/assets/img/Children/7.jpeg" alt="Image" width="170" height="200"></a>
+                            <h6 class="text-dark"><a asp-controller="Home" asp-action="Detalis">Children's D3, 10 mcg (400 IU),<br /> 100 MicroLingual Instant<br /> Dissolve Tablets</a></h6>
+                            <p class="price">4.031 JD </p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    }

@@ -1,0 +1,75 @@
+﻿@model Pharma_Ky.Models.Cosmetics
+
+@{
+    ViewData["Title"] = "List";
+    Layout = "~/Views/Shared/_MainLayout.cshtml";
+}
+@section MainSection{
+  <br/><br/>
+
+    <div class="center">
+        <figure>
+            <img src="~/assets/img/222.jpg" alt="Image placeholder" class="center">
+
+        </figure>
+
+    </div>
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a asp-controller="Cosmetics">Cosmetics</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Cosmetics</li>
+        </ol>
+    </nav>
+    <div class="site-wrap">
+
+        <div class="site-navbar py-2">
+
+            <div class="container">
+                <div class="d-flex align-items-center justify-content-between">
+                    <div class="logo">
+                        <div class="site-logo">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <hr>
+            <h1 style="text-align:center; color:red;">Cosmetics<span>.</span></h1>
+            <hr />
+            <div class="row">
+                <div class="col-sm-6 col-lg-4 text-center item mb-4">
+                    <a asp-controller="Home" asp-action="Detalis"> <img src="~/assets/img/Beauty/4.jpeg" alt="Image" width="150" height="200"></a>
+                    <h6 class="text-dark"><a asp-controller="Cosmetics" asp-action="Detalis">Derma Control,<br /> Oil Absorbing Moisturizer,<br /> SPF 30, 4 fl oz</a></h6>
+                    <p class="price">18.552 JD </p>
+                </div>
+                <div class="col-sm-6 col-lg-4 text-center item mb-4">
+                    <a asp-controller="Cosmetics" asp-action="Detalis"> <img src="~/assets/img/Beauty/5.jpeg" alt="Image" width="150" height="200" /></a>
+                    <h6 class="text-dark"><a asp-controller="Cosmetics" asp-action="Detalis">Age Defense, Lightweight<br /> Sunscreen Lotion For Face,<br /> SPF 50, Fragrance Free </a></h6>
+                    <p class="price">12.026 JD</p>
+                </div>
+                <div class="col-sm-6 col-lg-4 text-center item mb-4">
+                    <a asp-controller="Cosmetics" asp-action="Detalis"> <img src="~/assets/img/Beauty/6.jpeg" alt="Image" width="200" height="200"></a>
+                    <h6 class="text-dark"><a asp-controller="Cosmetics" asp-action="Detalis">Eucerin,Q10 Anti-Wrinkle Face Cream</a></h6>
+                    <p class="price">10.537 JD</p>
+                </div>
+
+                <div class="col-sm-6 col-lg-4 text-center item mb-4">
+                    <a asp-controller="Cosmetics" asp-action="Detalis"> <img src="~/assets/img/Beauty/7.jpeg" alt="Image" width="150" height="200"></a>
+                    <h6 class="text-dark"><a asp-controller="Cosmetics" asp-action="Detalis">Vanicream Moisturizing Lotion,<br /> For Sensitive Skin,<br /> Fragrance Free, 2 oz</a></h6>
+                    <p class="price">4.537 JD</p>
+                </div>
+                <div class="col-sm-6 col-lg-4 text-center item mb-4">
+                    <a asp-controller="Cosmetics" asp-action="Detalis"> <img src="~/assets/img/Beauty/8.jpeg" alt="Image" width="150" height="200"></a>
+                    <h6 class="text-dark"><a asp-controller="Cosmetics" asp-action="Detalis">Collagen, <br />Moisture Essential Mist,<br /> 100 ml</a></h6>
+                    <p class="price">2.140 JD </p>
+                </div>
+                <div class="col-sm-6 col-lg-4 text-center item mb-4">
+                    <a asp-controller="Cosmetics" asp-action="Detalis"> <img src="~/assets/img/Beauty/9.jpeg" alt="Image" width="150" height="200"></a>
+                    <h6 class="text-dark"><a asp-controller="Cosmetics" asp-action="Detalis">SheaMoisture Jamaican Black Castor Oil,<br /> Strengthen & Restore Shampoo,<br /> 13 fl oz (384 ml)</a></h6>
+                    <p class="price">9.882 JD </p>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+}

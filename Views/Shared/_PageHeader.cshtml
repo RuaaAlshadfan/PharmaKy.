@@ -1,0 +1,26 @@
+﻿<header id="header" class="fixed-top d-flex align-items-center">
+    <div class="container d-flex align-items-center">
+        <h1 class="logo me-auto"><img src="~/assets/img/logoPharma.png" alt=""><a asp-action="Index" asp-controller="Home">PharmaKy<span>.</span></a></h1>
+        <!-- Uncomment below if you prefer to use an image logo -->
+        @*         <a class="logo me-auto"><img src="~/assets/img/logoPharma.png" alt=""></a>
+        *@
+        <nav id="navbar" class="navbar order-last order-lg-0">
+            <ul>
+                <li><a class="nav-link scrollto active" asp-controller="Home" asp-action="Index">Home</a></li>
+                <li><a class="nav-link scrollto" asp-controller="Home" asp-action="About">About</a></li>
+                <li class="dropdown">
+                    <a href="#"><span>Store</span> <i class="bi bi-chevron-down"></i></a>
+                    <ul>
+                        <li><a asp-action="List" asp-controller="MedicVits">Medicines  & Vitamins</a></li>
+                        <li><a asp-action="Index" asp-controller="DevChids">Devices & Children needs</a></li>
+                        <li><a asp-action="List" asp-controller="Cosmetics">Cosmetics</a></li>
+                    </ul>
+                </li>
+                <li><a class="nav-link scrollto" asp-controller="Home" asp-action="Contact">Contact</a></li>
+            </ul>
+            <i class="bi bi-list mobile-nav-toggle"></i>
+        </nav><!-- .navbar -->
+
+        <a asp-action="Shop" asp-controller="Home" class="get-started-btn scrollto">Let's Shop Now!</a>
+    </div>
+</header><!-- End Header -->

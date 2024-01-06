@@ -1,0 +1,189 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Pharma_Ky
+build_property.RootNamespace = Pharma_Ky
+build_property.ProjectDir = C:\Users\Alshadafan\OneDrive\Desktop\MVCApps\Pharma_Ky\Pharma_Ky\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Alshadafan\OneDrive\Desktop\MVCApps\Pharma_Ky\Pharma_Ky
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Alshadafan/OneDrive/Desktop/MVCApps/Pharma_Ky/Pharma_Ky/Areas/Identity/Pages/Account/ForgotPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxGb3Jnb3RQYXNzd29yZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alshadafan/OneDrive/Desktop/MVCApps/Pharma_Ky/Pharma_Ky/Areas/Identity/Pages/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alshadafan/OneDrive/Desktop/MVCApps/Pharma_Ky/Pharma_Ky/Areas/Identity/Pages/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alshadafan/OneDrive/Desktop/MVCApps/Pharma_Ky/Pharma_Ky/Areas/Identity/Pages/Account/ResendEmailConfirmation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZXNlbmRFbWFpbENvbmZpcm1hdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alshadafan/OneDrive/Desktop/MVCApps/Pharma_Ky/Pharma_Ky/Areas/Identity/Pages/Account/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfVmlld0ltcG9ydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alshadafan/OneDrive/Desktop/MVCApps/Pharma_Ky/Pharma_Ky/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alshadafan/OneDrive/Desktop/MVCApps/Pharma_Ky/Pharma_Ky/Areas/Identity/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alshadafan/OneDrive/Desktop/MVCApps/Pharma_Ky/Pharma_Ky/Areas/Identity/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alshadafan/OneDrive/Desktop/MVCApps/Pharma_Ky/Pharma_Ky/Views/Cosmetics/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29zbWV0aWNzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alshadafan/OneDrive/Desktop/MVCApps/Pharma_Ky/Pharma_Ky/Views/Cosmetics/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29zbWV0aWNzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alshadafan/OneDrive/Desktop/MVCApps/Pharma_Ky/Pharma_Ky/Views/Cosmetics/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29zbWV0aWNzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alshadafan/OneDrive/Desktop/MVCApps/Pharma_Ky/Pharma_Ky/Views/Cosmetics/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29zbWV0aWNzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alshadafan/OneDrive/Desktop/MVCApps/Pharma_Ky/Pharma_Ky/Views/Cosmetics/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29zbWV0aWNzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alshadafan/OneDrive/Desktop/MVCApps/Pharma_Ky/Pharma_Ky/Views/Cosmetics/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29zbWV0aWNzXExpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alshadafan/OneDrive/Desktop/MVCApps/Pharma_Ky/Pharma_Ky/Views/DevChids/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV2Q2hpZHNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alshadafan/OneDrive/Desktop/MVCApps/Pharma_Ky/Pharma_Ky/Views/DevChids/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV2Q2hpZHNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alshadafan/OneDrive/Desktop/MVCApps/Pharma_Ky/Pharma_Ky/Views/DevChids/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV2Q2hpZHNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alshadafan/OneDrive/Desktop/MVCApps/Pharma_Ky/Pharma_Ky/Views/DevChids/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV2Q2hpZHNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alshadafan/OneDrive/Desktop/MVCApps/Pharma_Ky/Pharma_Ky/Views/DevChids/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV2Q2hpZHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alshadafan/OneDrive/Desktop/MVCApps/Pharma_Ky/Pharma_Ky/Views/DevChids/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV2Q2hpZHNcTGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alshadafan/OneDrive/Desktop/MVCApps/Pharma_Ky/Pharma_Ky/Views/Home/About.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBYm91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alshadafan/OneDrive/Desktop/MVCApps/Pharma_Ky/Pharma_Ky/Views/Home/Cart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDYXJ0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alshadafan/OneDrive/Desktop/MVCApps/Pharma_Ky/Pharma_Ky/Views/Home/Contact.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb250YWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alshadafan/OneDrive/Desktop/MVCApps/Pharma_Ky/Pharma_Ky/Views/Home/Delivery.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEZWxpdmVyeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alshadafan/OneDrive/Desktop/MVCApps/Pharma_Ky/Pharma_Ky/Views/Home/Detalis.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEZXRhbGlzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alshadafan/OneDrive/Desktop/MVCApps/Pharma_Ky/Pharma_Ky/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alshadafan/OneDrive/Desktop/MVCApps/Pharma_Ky/Pharma_Ky/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alshadafan/OneDrive/Desktop/MVCApps/Pharma_Ky/Pharma_Ky/Views/Home/Shop.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTaG9wLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alshadafan/OneDrive/Desktop/MVCApps/Pharma_Ky/Pharma_Ky/Views/MedicVits/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVkaWNWaXRzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alshadafan/OneDrive/Desktop/MVCApps/Pharma_Ky/Pharma_Ky/Views/MedicVits/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVkaWNWaXRzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alshadafan/OneDrive/Desktop/MVCApps/Pharma_Ky/Pharma_Ky/Views/MedicVits/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVkaWNWaXRzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alshadafan/OneDrive/Desktop/MVCApps/Pharma_Ky/Pharma_Ky/Views/MedicVits/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVkaWNWaXRzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alshadafan/OneDrive/Desktop/MVCApps/Pharma_Ky/Pharma_Ky/Views/MedicVits/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVkaWNWaXRzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alshadafan/OneDrive/Desktop/MVCApps/Pharma_Ky/Pharma_Ky/Views/MedicVits/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVkaWNWaXRzXExpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alshadafan/OneDrive/Desktop/MVCApps/Pharma_Ky/Pharma_Ky/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alshadafan/OneDrive/Desktop/MVCApps/Pharma_Ky/Pharma_Ky/Views/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alshadafan/OneDrive/Desktop/MVCApps/Pharma_Ky/Pharma_Ky/Views/Shared/_MainLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9NYWluTGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alshadafan/OneDrive/Desktop/MVCApps/Pharma_Ky/Pharma_Ky/Views/Shared/_PageFooter.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9QYWdlRm9vdGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alshadafan/OneDrive/Desktop/MVCApps/Pharma_Ky/Pharma_Ky/Views/Shared/_PageHeader.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9QYWdlSGVhZGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alshadafan/OneDrive/Desktop/MVCApps/Pharma_Ky/Pharma_Ky/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alshadafan/OneDrive/Desktop/MVCApps/Pharma_Ky/Pharma_Ky/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alshadafan/OneDrive/Desktop/MVCApps/Pharma_Ky/Pharma_Ky/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alshadafan/OneDrive/Desktop/MVCApps/Pharma_Ky/Pharma_Ky/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-pm8cfk7033

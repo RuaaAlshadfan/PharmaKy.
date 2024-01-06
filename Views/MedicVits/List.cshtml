@@ -1,0 +1,108 @@
+﻿@model IEnumerable<Pharma_Ky.Models.MedicVits>
+
+@{
+    ViewData["Title"] = "List";
+    Layout = "~/Views/Shared/_MainLayout.cshtml";
+}
+
+@section MainSection{
+    <br />
+    <br />
+
+    <div class="center">
+        <figure>
+            <img src="~/assets/img/medici.jpg" alt="Image placeholder" class="center">
+
+        </figure>
+</div>
+
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a asp-controller="MedicVits">Home</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Medicines & Vitamins</li>
+        </ol>
+    </nav>
+
+    <div class="site-wrap">
+
+        <div class="site-navbar py-2">
+            <div class="container">
+                <div class="d-flex align-items-center justify-content-between">
+                    <div class="logo">
+                        <div class="site-logo">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <hr>
+            <h1 style="text-align:center; color:red;" >Medicines<span>.</span></h1>
+            <hr />
+            <div class="row">
+
+
+                <div class="col-sm-6 col-lg-4 text-center item mb-4">
+                  
+                    <a asp-controller="Home" asp-action="Detalis"> <img src="~/assets/img/Medicines/proxidol.jpg" alt="Image" width="170" height="150" /></a>
+                    <h6 class="text-dark"><a asp-controller="Home" asp-action="Delivery">Proxidol</a></h6>
+                    <p class="price">3.750 JD
+                </div>
+                <div class="col-sm-6 col-lg-4 text-center item mb-4">
+                    <a asp-controller="Home" asp-action="Detalis"><img src="~/assets/img/Medicines/advil.jpg" alt="Image" width="250" height="250" /></a>
+                    <h6 class="text-dark"> <a asp-controller="Home" asp-action="Detalis">Advil Cold & Sinus</a></h6>
+                    <p class="price">2.500 JD</p>
+                </div>
+                <div class="col-sm-6 col-lg-4 text-center item mb-4">
+                    <a asp-controller="Home" asp-action="Detalis"> <img src="~/assets/img/Medicines/decadron.jpg" alt="Image" width="200" height="250"></a>
+                    <h6 class="text-dark"> <a asp-controller="Home" asp-action="Detalis">Decadron Elixir (SYR)</a></h6>
+                    <p class="price">1.990 JD</p>
+                </div>
+
+                <div class="col-sm-6 col-lg-4 text-center item mb-4">
+
+                    <a asp-controller="Home" asp-action="Detalis"> <img src="~/assets/img/Medicines/finallerg.jpg" alt="Image" width="200" height="250"></a>
+                    <h6 class="text-dark"> <a asp-controller="Home" asp-action="Detalis">Finallerg (SYR)</a></h6>
+                    <p class="price">2.490 JD</p>
+                </div>
+                <div class="col-sm-6 col-lg-4 text-center item mb-4">
+                    <a asp-controller="Home" asp-action="Detalis"> <img src="~/assets/img/Medicines/allerfin.jpg" alt="Image" width="200" height="250"></a>
+                    <h6 class="text-dark"> <a asp-controller="Home" asp-action="Detalis">Allerfin (SYR)</a></h6>
+                    <p class="price">1.010 JD </p>
+                </div>
+            </div>
+            <br /> <br /> <br /> <br />
+
+            <hr>
+            <h1 style="text-align:center; color:red;">Vitamins<span>.</span></h1>
+            <hr />
+            <div class="row">
+                <div class="col-sm-6 col-lg-4 text-center item mb-4">
+                    <a asp-controller="Home" asp-action="Detalis"><img src="~/assets/img/Vitamins/Omegal.jpeg" alt="Image" width="250" height="200" /></a>
+                    <h6 class="text-dark"><a asp-controller="Home" asp-action="Detalis">Omegal (SYR)</a></h6>
+                    <p class="price">13.530 JD
+                </div>
+                <div class="col-sm-6 col-lg-4 text-center item mb-4">
+                    <a asp-controller="Home" asp-action="Detalis"> <img src="~/assets/img/Vitamins/Nutrigen.jpeg" alt="Image" width="300" height="250" /></a>
+                    <h6 class="text-dark"> <a asp-controller="Home" asp-action="Detalis">Nutrigen Omega (SYR)</a></h6>
+                    <p class="price">14.800 JD</p>
+                </div>
+                <div class="col-sm-6 col-lg-4 text-center item mb-4">
+                    <a asp-controller="Home" asp-action="Detalis"> <img src="~/assets/img/Vitamins/Jamieson.jpeg" alt="Image" width="200" height="250"></a>
+                    <h6 class="text-dark"><a asp-controller="Home" asp-action="Detalis">Jamieson Mega Calcium(SYR)</a></h6>
+                    <p class="price">11.900 JD</p>
+                </div>
+                <div class="col-sm-6 col-lg-4 text-center item mb-4">
+
+                    <a asp-controller="Home" asp-action="Detalis"> <img src="~/assets/img/Vitamins/Jamieson2.jpeg" alt="Image" width="200" height="250"></a>
+                    <h6 class="text-dark"> <a asp-controller="Home" asp-action="Detalis">Jamieson Magnesium(SYR)</a></h6>
+                    <p class="price">6.900 JD</p>
+                </div>
+                <div class="col-sm-6 col-lg-4 text-center item mb-4">
+                    <a asp-controller="Home" asp-action="Detalis"> <img src="~/assets/img/Vitamins/Orthocal.jpeg" alt="Image" width="150" height="250"></a>
+                    <h6 class="text-dark"><a asp-controller="Home" asp-action="Detalis">Orthocal DK2 Chewable Table (SYR)</a></h6>
+                    <p class="price">12.088 JD </p>
+                </div>
+            </div>
+        </div>
+    </div>
+}

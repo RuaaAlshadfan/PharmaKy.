@@ -1,0 +1,56 @@
+﻿@model IEnumerable<Pharma_Ky.Models.DevChid>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_MainLayout.cshtml";
+}
+
+@section MainSection{
+        <br/><br/><br/><br/>
+               
+<p>
+        <a asp-action="Create" class="btn btn-success">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.DevChidname)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DevChiddescription)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DevChidprice)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DevChidimageurl)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.DevChidname)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DevChiddescription)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DevChidprice)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DevChidimageurl)
+            </td>
+            <td>
+                        <a asp-action="Edit" asp-route-id="@item.DevChidId" class="btn btn-info">Edit</a> |
+                        <a asp-action="Details" asp-route-id="@item.DevChidId" class="btn btn-warning">Details</a> |
+                        <a asp-action="Delete" asp-route-id="@item.DevChidId" class="btn btn-danger">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+}

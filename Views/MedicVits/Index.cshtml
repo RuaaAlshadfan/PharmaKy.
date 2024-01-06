@@ -1,0 +1,55 @@
+﻿@model IEnumerable<Pharma_Ky.Models.MedicVits>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_MainLayout.cshtml";
+}
+
+<h1>Index</h1>
+@section MainSection{
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.MedicVitname)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.MedicVitdescription)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.MedicVitprice)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.MedicVitimageurl)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.MedicVitname)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MedicVitdescription)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MedicVitprice)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MedicVitimageurl)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.MedicVitId">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.MedicVitId">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.MedicVitId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+}

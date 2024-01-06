@@ -1,0 +1,88 @@
+﻿@model Categories
+@{
+    Layout = "~/Views/Shared/_MainLayout.cshtml";
+    ViewData["Title"] = "Shop";
+}
+
+@section MainSection{
+   
+    }
+<nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a asp-controller="Home">Home</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Shop</li>
+    </ol>
+</nav>
+<br />
+<br />
+<br />
+<!-- End -->
+<div class="row">
+    <div class="col-sm-6 col-lg-4 text-center item mb-4">
+        <a asp-controller="Home" asp-action="Detalis"> <img src="~/assets/img/Beauty/3.jpeg" alt="Image" width="100" height="250" /></a>
+        <h6 class="text-dark"><a asp-controller="Home" asp-action="Detalis">VICHY | NORMADERM PHYTOSOLUTION<br /> PURIFYING CLEANSING GEL</a></h6>
+        <p class="price">13.41 JD</p>
+    </div>
+    <div class="col-sm-6 col-lg-4 text-center item mb-4">
+        <a asp-controller="Home" asp-action="Detalis"> <img src="~/assets/img/Beauty/5.jpeg" alt="Image" width="150" height="200" /></a>
+        <h6 class="text-dark"><a asp-controller="Home" asp-action="Detalis">Age Defense, Lightweight<br /> Sunscreen Lotion For Face,<br /> SPF 50, Fragrance Free </a></h6>
+        <p class="price">12.026 JD</p>
+    </div>
+    <div class="col-sm-6 col-lg-4 text-center item mb-4">
+        <a asp-controller="Home" asp-action="Detalis"> <img src="~/assets/img/Children/7.jpeg" alt="Image" width="170" height="200"></a>
+        <h6 class="text-dark"><a asp-controller="Home" asp-action="Detalis">Children's D3, 10 mcg (400 IU),<br /> 100 MicroLingual Instant<br /> Dissolve Tablets</a></h6>
+        <p class="price">4.031 JD </p>
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm-6 col-lg-4 text-center item mb-4">
+        <a asp-controller="Home" asp-action="Detalis"> <img src="~/assets/img/Children/8.jpeg" alt="Image" width="300" height="200"></a>
+        <h6 class="text-dark"><a asp-controller="Home" asp-action="Detalis">Aquaphor Healing Ointment</a></h6>
+        <p class="price">5.579 JD </p>
+    </div>
+    <div class="col-sm-6 col-lg-4 text-center item mb-4">
+        <a asp-controller="Home" asp-action="Detalis"> <img src="~/assets/img/devices/4.jpeg" alt="Image" width="150" height="200"></a>
+        <h6 class="text-dark"><a asp-controller="Home" asp-action="Detalis">Rossmax Monitoring</a></h6>
+        <p class="price">52.00 JD</p>
+    </div>
+    <div class="col-sm-6 col-lg-4 text-center item mb-4">
+        <a asp-controller="Home" asp-action="Detalis"> <img src="~/assets/img/devices/5.jpeg" alt="Image" width="150" height="200"></a>
+        <h6 class="text-dark"><a asp-controller="Home" asp-action="Detalis">Omron M3 <br />Automatic Upper Arm,<br /> Blood Pressure Monitor</a></h6>
+        <p class="price">100.00 JD </p>
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm-6 col-lg-4 text-center item mb-4">
+        <a asp-controller="Home" asp-action="Detalis"><img src="~/assets/img/Medicines/advil.jpg" alt="Image" width="250" height="250" /></a>
+        <h6 class="text-dark"> <a asp-controller="Home" asp-action="Detalis">Advil Cold & Sinus</a></h6>
+        <p class="price">2.500 JD</p>
+    </div>
+    <div class="col-sm-6 col-lg-4 text-center item mb-4">
+        <a asp-controller="Home" asp-action="Detalis"> <img src="~/assets/img/Medicines/xyzal.jpg" alt="Image" width="220" height="250"></a>
+        <h6 class="text-dark"> <a asp-controller="Home" asp-action="Detalis">Xyzal</a></h6>
+        <p class="price"> 4.790 JD</p>
+    </div>
+    <div class="col-sm-6 col-lg-4 text-center item mb-4">
+        <a asp-controller="Home" asp-action="Detalis"><img src="~/assets/img/Vitamins/Omegal.jpeg" alt="Image" width="250" height="200" /></a>
+        <h6 class="text-dark"><a asp-controller="Home" asp-action="Detalis">Omegal (SYR)</a></h6>
+        <p class="price">13.530 JD
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm-6 col-lg-4 text-center item mb-4">
+        <a asp-controller="Home" asp-action="Detalis"> <img src="~/assets/img/Vitamins/Nutrigen.jpeg" alt="Image" width="300" height="300" /></a>
+        <h6 class="text-dark"> <a asp-controller="Home" asp-action="Detalis">Nutrigen Omega (SYR)</a></h6>
+        <p class="price">14.800 JD</p>
+    </div>
+    <div class="col-sm-6 col-lg-4 text-center item mb-4">
+        <a asp-controller="Home" asp-action="Detalis"> <img src="~/assets/img/Vitamins/Omegal.jpeg" alt="Image" width="300" height="300"></a>
+        <h6 class="text-dark"><a asp-controller="Home" asp-action="Detalis">Jamieson Mega Calcium(SYR)</a></h6>
+        <p class="price">11.900 JD</p>
+    </div>
+</div>
+<@* div class="row mt-5"> 
+    <div class="col-12 text-center">
+        <a asp-controller="MedicVits" asp-action="MedicVits" class="btn btn-danger">View All Products</a>
+    </div>
+</div>*@
+

@@ -1,0 +1,46 @@
+﻿@model Pharma_Ky.Models.DevChid
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Views/Shared/_MainLayout.cshtml";
+}
+
+<h1>Create</h1>
+
+<h4>DevChid</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="DevChidname" class="control-label"></label>
+                <input asp-for="DevChidname" class="form-control" />
+                <span asp-validation-for="DevChidname" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DevChiddescription" class="control-label"></label>
+                <input asp-for="DevChiddescription" class="form-control" />
+                <span asp-validation-for="DevChiddescription" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DevChidprice" class="control-label"></label>
+                <input asp-for="DevChidprice" class="form-control" />
+                <span asp-validation-for="DevChidprice" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DevChidimageurl" class="control-label"></label>
+                <input asp-for="DevChidimageurl" class="form-control" />
+                <span asp-validation-for="DevChidimageurl" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+

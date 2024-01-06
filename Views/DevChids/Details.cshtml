@@ -1,0 +1,43 @@
+﻿@model Pharma_Ky.Models.DevChid
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Views/Shared/_MainLayout.cshtml";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>DevChid</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.DevChidname)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.DevChidname)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.DevChiddescription)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.DevChiddescription)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.DevChidprice)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.DevChidprice)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.DevChidimageurl)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.DevChidimageurl)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.DevChidId">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

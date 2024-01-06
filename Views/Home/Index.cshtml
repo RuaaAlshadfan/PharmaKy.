@@ -1,0 +1,87 @@
+﻿@{
+    Layout = "~/Views/Shared/_MainLayout.cshtml";
+    ViewData["Title"] = "Home Page";
+
+}
+
+@section MainSection{
+    <!-- ======= Hero Section ======= -->
+    <section id="hero" class="d-flex align-items-center">
+        <div class="container" data-aos="zoom-out" data-aos-delay="100">
+            <div class="row">
+                <div class="col-xl-6">
+                    <h1>
+                        Your Trusted Partner in
+                        Health and Wellness
+                    </h1>
+                    <h2>At our pharmacy, we are dedicated to ensuring that you have access to the medications 
+                        and healthcare products you need, around the clock.</h2>
+@*                    <a class="btn-get-started scrollto"  asp-page="./Register" asp-route-returnUrl="@Model.ReturnUrl">Register as a new user</a>
+ *@                      <a class="btn-get-started scrollto" id="register" asp-area="Identity" asp-page="/Account/Login">Sign Up</a>
+                 </div>
+            </div>
+        </div>
+    </section><!-- End Hero -->
+    }
+<nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a asp-controller="Home">Home</a></li>
+    </ol>
+</nav>
+<br/>
+<br/>
+<div class="section-header" data-aos="zoom-out" data-aos-delay="100">
+    <h2 style="font-family:cursive,sans-serif; text-align: center;"> Products</h2>
+    <p style="font-family:cursive,sans-serif; text-align: center; font-size:larger"><b><span>Popular Products</span></b></p>
+    </div>
+    <hr/>
+    <br />
+    <div class="gallery-slider swiper">
+        <div class="swiper-wrapper align-items-center">
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" asp-action="Children"><img src="~/assets/img/Children/6.jpeg" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" asp-action="Vitamins"><img src="~/assets/img/Vitamins/Jamieson.jpeg" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" asp-action="Cosmetics"><img src="~/assets/img/Beauty/8.jpeg" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" asp-action="Medicines"><img src="~/assets/img/Medicines/advil.jpg" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" asp-action="Children"><img src="~/assets/img/Children/7.jpeg" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" asp-action="Cosmetics"><img src="~/assets/img/Beauty/1.jpg" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" asp-action="Medicines"><img src="~/assets/img/Medicines/bilaxten.jpg" class="img-fluid" alt=""></a></div> 
+        </div>
+        <br />
+        <br />
+
+        <div class="swiper-pagination"></div>
+    </div>
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+   
+    <hr />
+    <div class="section-header">
+    <h2 style ="font-family:cursive,sans-serif; text-align: center;"> Products</h2>
+    <p style="font-family:cursive,sans-serif; text-align: center; font-size:larger"><b>Check <span>New Products</span></b></p>
+    </div>
+    <hr />
+    <br />
+    <div class="gallery-slider swiper">
+        <div class="swiper-wrapper align-items-center">
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" asp-action="Children"><img src="~/assets/img/Children/4.jpeg" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" asp-action="Vitamins"><img src="~/assets/img/Vitamins/Omegal.jpeg" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" asp-action="Cosmetics"><img src="~/assets/img/Beauty/4.jpg" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" asp-action="Cosmetics"><img src="~/assets/img/Beauty/5.jpeg" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" asp-action="Medicines"><img src="~/assets/img/Medicines/allerfin.jpg" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" asp-action="Medicines"><img src="~/assets/img/devices/5.jpeg" class="img-fluid" alt=""></a></div>
+
+        </div>
+        <br />
+        <br />
+
+        <div class="swiper-pagination"></div>
+    </div>
+    <br />
+    <br />
+    <br />
+
+    
